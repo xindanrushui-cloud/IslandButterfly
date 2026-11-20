@@ -2,9 +2,9 @@
 
 一个带灵动岛实时活动（Live Activity）的蝴蝶 App。
 
-打开 App 点「启动蝴蝶岛」，灵动岛上常驻一只像素风蝴蝶，翅膀一张一收地扇动；**长按灵动岛展开**，能看到大蝴蝶和「岛蝶陪着你」。锁屏上也会同步显示蝴蝶横幅。
+打开 App 点「启动蝴蝶岛」，灵动岛上常驻一只白蝴蝶，翅膀一张一收地扇动；**长按灵动岛展开**，能看到大蝴蝶和「岛蝶陪着你」。锁屏上也会同步显示蝴蝶横幅。
 
-蝴蝶是程序画的像素画（两帧：翅膀张开 / 收起），不是任何现成 App 的素材。
+蝴蝶是程序画的写实风格白蝴蝶（两帧：翅膀张开 / 向上收拢），不是任何现成 App 的素材。
 
 ## 岛上显示什么
 
@@ -28,7 +28,7 @@ IslandButterfly/                 App target（SwiftUI）
   IslandButterflyAttributes.swift 共享的 ActivityAttributes（同时属于两个 target）
   IslandButterflyIntents.swift   快捷指令动作：启动蝴蝶岛 / 停止蝴蝶岛
   Info.plist                     NSSupportsLiveActivities
-  Assets.xcassets/               App 图标（紫底 + 自绘像素蝴蝶）+ 蝴蝶两帧图
+  Assets.xcassets/               App 图标（深色底 + 自绘白蝴蝶）+ 蝴蝶两帧图
 IslandButterflyWidget/           Widget Extension target（WidgetKit）
   IslandButterflyWidgetBundle.swift @main WidgetBundle
   IslandButterflyWidget.swift    ActivityConfiguration + DynamicIsland 展开/紧凑/最小视图

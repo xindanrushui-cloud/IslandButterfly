@@ -20,7 +20,6 @@ struct ButterflyView: View {
             let frame = Int(timeline.date.timeIntervalSince1970 * 2) % 2
             Image(frame == 0 ? "butterfly-open" : "butterfly-closed")
                 .resizable()
-                .interpolation(.none) // 像素风不要插值模糊
                 .aspectRatio(contentMode: .fit)
                 .frame(width: size, height: size)
         }
